@@ -2,9 +2,9 @@ import { Link } from "gatsby"
 import React from "react"
 import { DiWindows, DiLinux, DiApple } from "react-icons/di"
 import { HiOutlineBookOpen } from "react-icons/hi"
-import { Footer } from "../components/footer"
-import { Header } from "../components/header"
-import { Seo } from "../components/seo"
+import { Footer } from "../../src/components/footer"
+import { Header } from "../../src/components/header"
+import { Seo } from "../../src/components/seo"
 
 export default function PrivateBeta() {
   return (

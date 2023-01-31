@@ -1,10 +1,10 @@
 import { graphql, Link, useStaticQuery } from "gatsby"
 import React from "react"
-import { Footer } from "../components/footer"
-import { GradientTitle } from "../components/gradient-title"
-import { Header } from "../components/header"
+import { Footer } from "../../src/components/footer"
+import { GradientTitle } from "../../src/components/gradient-title"
+import { Header } from "../../src/components/header"
 
-import { Seo } from "../components/seo"
+import { Seo } from "../../src/components/seo"
 
 export default function BlogListPage() {
   const { allMarkdownRemark } = useStaticQuery(graphql`
